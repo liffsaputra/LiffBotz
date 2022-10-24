@@ -1,6 +1,6 @@
   /**
          [ CREDITS ]
-         * Coding by @gloesirush
+         * Coding by @Liff
          * @ YT : https://youtube.com/c/Taufiq Swan
          * @ YT CHANNEL : Taufiq Swan 
          * @ WhatsApp : wa.me/6288292052372
@@ -44,7 +44,7 @@
          async function operate () {         
               const { state, saveState } = useSingleFileAuthState(SETTING.sesionName + '.json');    
               let { version } = fetchLatestBaileysVersion()
-              const client = makeWASocket({ logger: pino({ level: 'silent' }), printQRInTerminal: true, browser: ['Thunder-XM Multidevice','Safari','1.0.0'], auth: state })
+              const client = makeWASocket({ logger: pino({ level: 'silent' }), printQRInTerminal: true, browser: ['Liff-Md Multidevice','Safari','1.0.0'], auth: state })
               
               
                 /** plugins **/
